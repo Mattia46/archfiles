@@ -1,5 +1,5 @@
 set $mod Mod4
-font pango:Ubuntu Nerd Font Complete Mono 12
+font pango:mono 12
 
 floating_modifier $mod
 exec --no-startup-id xrandr --output DP-1 --scale 0.7x0.7
@@ -7,7 +7,7 @@ exec --no-startup-id xrandr --output DP-1 --scale 0.7x0.7
 #exec --no-startup-id xrandr --output DVI-D-1 --off --output DVI-I-1 --off
 #exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id nitrogen --restore
-#exec_always dunst
+exec_always --no-startup-id dunst
 
 # Redshift warmer color: London coordinates
 exec --no-startup-id redshift -l 51.50722:-0.1275
