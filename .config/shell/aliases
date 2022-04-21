@@ -1,1 +1,15 @@
 alias dots='/usr/bin/git --git-dir=$HOME/.archfiles/ --work-tree=$HOME'
+
+# git
+alias add='git add .'
+alias com='git commit -m'
+alias gps='git push'
+alias gpl='git pull'
+alias sta='git status'
+alias gck='git checkout'
+
+# tmux
+alias tmls='tmux ls'
+alias tmat='tmux attach -t'
+alias tmn='tmux new-session -s'
+
