@@ -15,9 +15,16 @@ git clone --separate-git-dir=$HOME/.archfiles https://github.com/mattia46/archfi
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
 rm -r tmpdotfiles
 
-alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dots='/usr/bin/git --git-dir=$HOME/.archfiles/ --work-tree=$HOME'
 dots config --local status.showUntrackedFiles no
 ```
+
+### Firefox
+* uBlock
+* Dark reader
+* vimium
+
+Enable dark mode in themes
 
 ### To expand:
 ```
