@@ -48,6 +48,7 @@ inoremap jj <ESC>:wa<CR>
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeHighlightCursorline = 1
 let NERDTreeShowHidden=1
+nmap <leader>f :NERDTreeFind<CR>
 
 "Move between windows
 nnoremap <Tab> <C-W><C-W>
