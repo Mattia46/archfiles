@@ -33,6 +33,11 @@ dots config --local status.showUntrackedFiles no
 
 Enable dark mode in themes
 
+### Utils
+ncdu # show file and dir size
+pacman -Scc # remove pkg from cache
+sudo pacman -Rns $(pacman -Qtdq) # remove unused pkg
+
 ### To expand:
 ```
 # dwm: Window Manager

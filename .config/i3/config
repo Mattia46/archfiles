@@ -163,7 +163,7 @@ bar {
          traffic nic pasink\
          time date weather \
       -p memory.format={used} \
-         currency.destinationdelimiter="/" stock.symbols="vusa.l" \
+         currency.destinationdelimiter="/" stock.symbols="vusa.l" stock.change="False"\
          nic.exclude="enp4s0, lo" nic.format={ip} traffic.showname="False" traffic.format="{:.0f}" \
          time.format="%H:%M" weather.location="london" \
       -t dracula-powerline
