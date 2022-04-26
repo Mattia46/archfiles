@@ -2,7 +2,7 @@
 
 ### Dependencies
 rsync git curl alacritty dunst neovim vim picom rofi rofi-emoji rofi-calc zsh nitrogen redshift openssh xclip i3
-firefox noto-fonts papirus-icon-theme scrot python-pip cifs-utils
+firefox noto-fonts papirus-icon-theme scrot python-pip cifs-utils tree
 
 ### To install bumblebee modules
 python3 -m pip install MODULE

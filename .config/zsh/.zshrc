@@ -3,17 +3,24 @@
    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-#ZSH_THEME="af-magic"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Source plugins
 source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+#source ~/.config/zsh/zsh-auto-notify/auto-notify.plugin.zsh
+source ~/.config/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 
 # Source theme
 source ~/.config/zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # Source aliases
 source ~/.config/shell/aliases
+
+# history substring search options
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 #vi in bash
 set -o vi
