@@ -1,5 +1,5 @@
 set $mod Mod4
-font pango:mono 12
+font pango:Source Code Pro 12
 
 floating_modifier $mod
 exec --no-startup-id xrandr --output DP-1 --scale 0.7x0.7
@@ -134,7 +134,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-  bindsym j resize shrink width 10 px or 10 ppt
+    bindsym j resize shrink width 10 px or 10 ppt
     bindsym k resize grow height 10 px or 10 ppt
     bindsym l resize shrink height 10 px or 10 ppt
     bindsym semicolon resize grow width 10 px or 10 ppt
@@ -166,7 +166,6 @@ bar {
          currency.destinationdelimiter="/" stock.symbols="vusa.l" \
          nic.exclude="enp4s0, lo" nic.format={ip} traffic.showname="False" \
          time.format="%H:%M" weather.location="london" \
-          \
       -t dracula-powerline
 
     position top

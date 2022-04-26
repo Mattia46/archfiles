@@ -1,4 +1,4 @@
 systemctl --user import-environment DISPLAY
 
-picom --experimental-backends &
+picom &
 exec i3
