@@ -13,3 +13,5 @@ alias tmls='tmux ls'
 alias tmat='tmux attach -t'
 alias tmn='tmux new-session -s'
 
+# vari
+alias vim='nvim'
