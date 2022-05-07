@@ -1,5 +1,5 @@
-set $mod Mod4
-font pango:Source Code Pro 12
+set $mod Mod1
+font pango:Source Code Pro 10
 
 floating_modifier $mod
 exec --no-startup-id xrandr --output DP-1 --scale 0.7x0.7
@@ -131,6 +131,16 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# Gaps
+gaps inner 5
+gaps outer 5
+#gaps horizontal 5
+#gaps vertical 5
+#gaps top 5
+#gaps right 5
+#gaps bottom 5
+#gaps left 5
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
