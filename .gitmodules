@@ -1,3 +1,6 @@
 [submodule ".config/bumblebee-status"]
 	path = .config/bumblebee-status
 	url = https://github.com/tobi-wan-kenobi/bumblebee-status.git
+[submodule ".config/zsh/plugins/zsh-autosuggestions"]
+	path = .config/zsh/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
