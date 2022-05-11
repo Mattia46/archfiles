@@ -19,6 +19,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```bash
 cd $HOME
 git clone --separate-git-dir=$HOME/.archfiles https://github.com/mattia46/archfiles.git tmpdotfiles
+git pull --recursive-submodules # to install submodules
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
 rm -r tmpdotfiles
 
